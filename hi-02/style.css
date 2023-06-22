@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+}
+.main{
+    margin-top: 12%;
+    margin-left: 33%;
+    max-width: 33%;
+    height: 55vh;
+    background: hsl(213, 19%, 18%);
+    padding: 15px;
+    border-radius: 10px;
+}
+button{
+    background: hsl(217, 12%, 63%);
+}
+.button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    margin-top: 5px;
+    margin-left: 33px;
+}
+
+.heading{
+    font-size: 30px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    margin-left: 33px;
+    margin-top: 19px;
+}
+p{
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(216, 12%, 54%);
+    max-width: 300px;
+    margin-left: 33px;
+    margin-top: 15px;
+}
+
+.button-1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    font-weight: 400;
+    margin-left: 19px;
+    margin-top: 10px;
+    font-weight: 700;
+    color: lhs(216, 12%, 54%);
+}
+.button-2{
+    padding: 10px;
+    text-transform: capitalize;
+    width: 78%;
+    background: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 15px;
+    font-weight: 700;
+    margin-top: 33px;
+    margin-left: 19px;
+    color: hsl(0, 0%, 100%);
+}
