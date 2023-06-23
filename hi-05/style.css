@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body{
+    background-image: url(images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+    background-color: hsl(229, 57%, 11%);
+}
+.main{
+    width: 100%;
+    height: 50vh;
+    z-index: -1;
+    margin-top: -10%;
+}
+.main1{
+    width: 24%;
+    height: 24vh;
+    background: hsl(228, 56%, 26%);
+    border-radius: 10px 42px 10px 10px;
+    margin-left: 21%;
+    margin-top: -15%;
+}
+.main1 img{
+    width: 100px;
+    margin-top: 21px;
+    margin-left: 33px;
+}
+.main1 .icon{
+    width: 15px;
+    padding: 15px;
+    background: hsl(229, 57%, 11%);
+    border-radius: 10px;
+    margin-left: 33px;
+}
+.main1 .icon1{
+    width: 15px;
+    padding: 19px;
+    background: hsl(229, 57%, 11%);
+    border-radius: 10px;
+}
+.main2{
+    width: 450px;
+    height: 19vh;
+    background: hsl(228, 56%, 26%);
+    margin-top: -9.5%;
+    margin-left: 46%;
+    border-radius: 10px;
+}
+.main1 .icon2{
+    width: 15px;
+    padding: 21px;
+    background: hsl(229, 57%, 11%);
+    border-radius: 10px;
+}
+.main2 p{
+   margin-left: 33px;
+   margin-top: 30px;
+}
+.main3{
+    width: 75%;
+    height: 2vh;
+    background: hsl(229, 57%, 11%);
+    margin-left: 33px;
+    border-radius: 15px;
+}
+.main4{
+    width: 75%;
+    height: 2vh;
+    background: linear-gradient(hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+}
+.main5{
+    width: 10%;
+    height: 5vh;
+    background: white;
+    padding: 15px;
+    margin-left: 70%;
+}
+.main6{
+width: 0;
+height: 0;
+border-left: 15px solid transparent;
+border-right: 15px solid transparent;
+border-top: 15px solid white;
+margin-left: 79%;
+}
